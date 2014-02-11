@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6401877818354821006FBD4F"
-               BuildableName = "RasplexRemote.app"
+               BuildableName = "ropsTV.app"
                BlueprintName = "RasplexRemote"
                ReferencedContainer = "container:RasplexRemote.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6401877818354821006FBD4F"
-            BuildableName = "RasplexRemote.app"
+            BuildableName = "ropsTV.app"
             BlueprintName = "RasplexRemote"
             ReferencedContainer = "container:RasplexRemote.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6401877818354821006FBD4F"
-            BuildableName = "RasplexRemote.app"
+            BuildableName = "ropsTV.app"
             BlueprintName = "RasplexRemote"
             ReferencedContainer = "container:RasplexRemote.xcodeproj">
          </BuildableReference>
@@ -80,7 +80,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6401877818354821006FBD4F"
-            BuildableName = "RasplexRemote.app"
+            BuildableName = "ropsTV.app"
             BlueprintName = "RasplexRemote"
             ReferencedContainer = "container:RasplexRemote.xcodeproj">
          </BuildableReference>

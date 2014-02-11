@@ -21,6 +21,13 @@
 		6401879E18354821006FBD4F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6401878018354821006FBD4F /* UIKit.framework */; };
 		640187A618354821006FBD4F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 640187A418354821006FBD4F /* InfoPlist.strings */; };
 		640187A818354821006FBD4F /* RasplexRemoteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 640187A718354821006FBD4F /* RasplexRemoteTests.m */; };
+		640187B318354F6B006FBD4F /* JsonRPCClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 640187B218354F6B006FBD4F /* JsonRPCClient.m */; };
+		640187B71835718F006FBD4F /* UIViewController+CWStatusBarNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 640187B61835718F006FBD4F /* UIViewController+CWStatusBarNotification.m */; };
+		640187C0183579C6006FBD4F /* IonIcons.m in Sources */ = {isa = PBXBuildFile; fileRef = 640187BC183579C6006FBD4F /* IonIcons.m */; };
+		640187C1183579C6006FBD4F /* ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 640187BD183579C6006FBD4F /* ionicons.ttf */; };
+		646B455018588BD80065FCE6 /* NMSSH.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 646B454F18588BD80065FCE6 /* NMSSH.framework */; };
+		646B4552185891750065FCE6 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 646B4551185891750065FCE6 /* libz.dylib */; };
+		64A03C261835A459008B9611 /* SettingsTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 64A03C251835A459008B9611 /* SettingsTVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,7 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6401877918354821006FBD4F /* RasplexRemote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RasplexRemote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6401877918354821006FBD4F /* ropsTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ropsTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6401877C18354821006FBD4F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6401877E18354821006FBD4F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6401878018354821006FBD4F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -53,6 +60,19 @@
 		640187A318354821006FBD4F /* RasplexRemoteTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RasplexRemoteTests-Info.plist"; sourceTree = "<group>"; };
 		640187A518354821006FBD4F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		640187A718354821006FBD4F /* RasplexRemoteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RasplexRemoteTests.m; sourceTree = "<group>"; };
+		640187B118354F6B006FBD4F /* JsonRPCClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JsonRPCClient.h; sourceTree = "<group>"; };
+		640187B218354F6B006FBD4F /* JsonRPCClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JsonRPCClient.m; sourceTree = "<group>"; };
+		640187B51835718F006FBD4F /* UIViewController+CWStatusBarNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+CWStatusBarNotification.h"; sourceTree = "<group>"; };
+		640187B61835718F006FBD4F /* UIViewController+CWStatusBarNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+CWStatusBarNotification.m"; sourceTree = "<group>"; };
+		640187B818357474006FBD4F /* JsonRPCClientDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JsonRPCClientDelegate.h; sourceTree = "<group>"; };
+		640187BA183579C6006FBD4F /* ionicons-codes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ionicons-codes.h"; sourceTree = "<group>"; };
+		640187BB183579C6006FBD4F /* IonIcons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IonIcons.h; sourceTree = "<group>"; };
+		640187BC183579C6006FBD4F /* IonIcons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IonIcons.m; sourceTree = "<group>"; };
+		640187BD183579C6006FBD4F /* ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ionicons.ttf; sourceTree = "<group>"; };
+		646B454F18588BD80065FCE6 /* NMSSH.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NMSSH.framework; sourceTree = "<group>"; };
+		646B4551185891750065FCE6 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		64A03C241835A459008B9611 /* SettingsTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsTVC.h; sourceTree = "<group>"; };
+		64A03C251835A459008B9611 /* SettingsTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsTVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +80,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				646B4552185891750065FCE6 /* libz.dylib in Frameworks */,
+				646B455018588BD80065FCE6 /* NMSSH.framework in Frameworks */,
 				6401877F18354821006FBD4F /* CoreGraphics.framework in Frameworks */,
 				6401878118354821006FBD4F /* UIKit.framework in Frameworks */,
 				6401877D18354821006FBD4F /* Foundation.framework in Frameworks */,
@@ -92,7 +114,7 @@
 		6401877A18354821006FBD4F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6401877918354821006FBD4F /* RasplexRemote.app */,
+				6401877918354821006FBD4F /* ropsTV.app */,
 				6401879A18354821006FBD4F /* RasplexRemoteTests.xctest */,
 			);
 			name = Products;
@@ -101,6 +123,8 @@
 		6401877B18354821006FBD4F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				646B4551185891750065FCE6 /* libz.dylib */,
+				646B454F18588BD80065FCE6 /* NMSSH.framework */,
 				6401877C18354821006FBD4F /* Foundation.framework */,
 				6401877E18354821006FBD4F /* CoreGraphics.framework */,
 				6401878018354821006FBD4F /* UIKit.framework */,
@@ -112,9 +136,14 @@
 		6401878218354821006FBD4F /* RasplexRemote */ = {
 			isa = PBXGroup;
 			children = (
+				640187B41835718F006FBD4F /* CWStatusBarNotification */,
+				640187B9183579C6006FBD4F /* ionicons */,
+				64A7727C18359379000B64D5 /* JSONRPC */,
+				6401878E18354821006FBD4F /* Main.storyboard */,
 				6401878B18354821006FBD4F /* AppDelegate.h */,
 				6401878C18354821006FBD4F /* AppDelegate.m */,
-				6401878E18354821006FBD4F /* Main.storyboard */,
+				64A03C241835A459008B9611 /* SettingsTVC.h */,
+				64A03C251835A459008B9611 /* SettingsTVC.m */,
 				6401879118354821006FBD4F /* ViewController.h */,
 				6401879218354821006FBD4F /* ViewController.m */,
 				6401879418354821006FBD4F /* Images.xcassets */,
@@ -152,6 +181,37 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		640187B41835718F006FBD4F /* CWStatusBarNotification */ = {
+			isa = PBXGroup;
+			children = (
+				640187B51835718F006FBD4F /* UIViewController+CWStatusBarNotification.h */,
+				640187B61835718F006FBD4F /* UIViewController+CWStatusBarNotification.m */,
+			);
+			path = CWStatusBarNotification;
+			sourceTree = "<group>";
+		};
+		640187B9183579C6006FBD4F /* ionicons */ = {
+			isa = PBXGroup;
+			children = (
+				640187BA183579C6006FBD4F /* ionicons-codes.h */,
+				640187BB183579C6006FBD4F /* IonIcons.h */,
+				640187BC183579C6006FBD4F /* IonIcons.m */,
+				640187BD183579C6006FBD4F /* ionicons.ttf */,
+			);
+			name = ionicons;
+			path = CWStatusBarNotification/ionicons;
+			sourceTree = "<group>";
+		};
+		64A7727C18359379000B64D5 /* JSONRPC */ = {
+			isa = PBXGroup;
+			children = (
+				640187B118354F6B006FBD4F /* JsonRPCClient.h */,
+				640187B218354F6B006FBD4F /* JsonRPCClient.m */,
+				640187B818357474006FBD4F /* JsonRPCClientDelegate.h */,
+			);
+			name = JSONRPC;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -169,7 +229,7 @@
 			);
 			name = RasplexRemote;
 			productName = RasplexRemote;
-			productReference = 6401877918354821006FBD4F /* RasplexRemote.app */;
+			productReference = 6401877918354821006FBD4F /* ropsTV.app */;
 			productType = "com.apple.product-type.application";
 		};
 		6401879918354821006FBD4F /* RasplexRemoteTests */ = {
@@ -230,6 +290,7 @@
 			files = (
 				6401879518354821006FBD4F /* Images.xcassets in Resources */,
 				6401878718354821006FBD4F /* InfoPlist.strings in Resources */,
+				640187C1183579C6006FBD4F /* ionicons.ttf in Resources */,
 				6401879018354821006FBD4F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -249,9 +310,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				640187B318354F6B006FBD4F /* JsonRPCClient.m in Sources */,
 				6401879318354821006FBD4F /* ViewController.m in Sources */,
+				64A03C261835A459008B9611 /* SettingsTVC.m in Sources */,
+				640187B71835718F006FBD4F /* UIViewController+CWStatusBarNotification.m in Sources */,
 				6401878D18354821006FBD4F /* AppDelegate.m in Sources */,
 				6401878918354821006FBD4F /* main.m in Sources */,
+				640187C0183579C6006FBD4F /* IonIcons.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,10 +443,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/daniele/Developer/XCode\\ Workspace/RasplexRemote",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RasplexRemote/RasplexRemote-Prefix.pch";
 				INFOPLIST_FILE = "RasplexRemote/RasplexRemote-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ropsTV;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -391,10 +460,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/daniele/Developer/XCode\\ Workspace/RasplexRemote",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RasplexRemote/RasplexRemote-Prefix.pch";
 				INFOPLIST_FILE = "RasplexRemote/RasplexRemote-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ropsTV;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -460,6 +533,7 @@
 				640187AD18354821006FBD4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		640187AE18354821006FBD4F /* Build configuration list for PBXNativeTarget "RasplexRemoteTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +542,7 @@
 				640187B018354821006FBD4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
