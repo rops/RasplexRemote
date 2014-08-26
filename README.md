@@ -1,6 +1,6 @@
 ## Rasplex Remote
 
-![](http://imgur.com/e4ziWmp)
+![](http://i.imgur.com/e4ziWmpl.png)
 
 Control your Raspberry running Rasplex with this simple remote application.
 
